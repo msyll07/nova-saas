@@ -22,7 +22,7 @@ export default function ProductPreview() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
-            className="rounded-2xl overflow-hidden shadow-2xl border border-slate-200"
+            className="rounded-2xl overflow-hidden shadow-2xl border border-slate-200 w-full max-w-[92%] sm:max-w-[80%] lg:max-w-full mx-auto"
           >
             <Image
               src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop"
@@ -39,7 +39,7 @@ export default function ProductPreview() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.4 }}
-            className="absolute top-10 -left-6 bg-white p-4 rounded-xl shadow-lg border border-slate-100 flex items-center gap-3"
+            className="absolute top-10 -left-6  bg-white p-4 rounded-xl shadow-lg border border-slate-100 flex items-center gap-3"
           >
             <div className="bg-green-100 p-2 rounded-full">
               <TrendingUp className="text-green-600" size={20} />
